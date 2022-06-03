@@ -192,7 +192,7 @@
                     else if((double)$answer == 0) //負號
                     {
                         $negative = true;
-                        $answer = (string)(StrictMath.signum(-0.0));
+                        $answer = "-";
                     }
                 }
                 else if($Press == "*") //按*的功能
